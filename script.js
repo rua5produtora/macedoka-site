@@ -19,6 +19,11 @@ updateHeader();
 window.addEventListener("scroll", updateHeader, { passive: true });
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const heroVideo = document.querySelector(".hero-media");
+
+if (reducedMotion && heroVideo instanceof HTMLVideoElement) {
+  heroVideo.pause();
+}
 
 if (!reducedMotion && "IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
