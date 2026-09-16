@@ -78,7 +78,7 @@ h3 { margin-bottom: 12px; font-size: 1.35rem; }
 .aircraft-content > a { display: flex; justify-content: space-between; color: var(--text); font-size: .8rem; font-weight: 700; text-transform: uppercase; }
 
 .services-section { display: grid; grid-template-columns: .95fr 1.05fr; min-height: 820px; }
-.services-media { min-height: 560px; background: linear-gradient(0deg, rgba(7,9,12,.24), rgba(7,9,12,.08)), url("https://images.unsplash.com/photo-1521727857535-28d2047314ac?auto=format&fit=crop&w=1500&q=88") center/cover; }
+.services-media { min-height: 560px; background: linear-gradient(0deg, rgba(7,9,12,.28), rgba(7,9,12,.08)), url("https://cdn.prod.website-files.com/6703f7dfd15367738df51db0/69d69706cf58d70a84aa2e00_file_pfw1x0pf.png") center/cover; }
 .services-copy { display: flex; flex-direction: column; justify-content: center; padding: 80px clamp(28px, 7vw, 104px); background: #0d1116; }
 .service-list { margin: 24px 0 0; padding: 0; list-style: none; }
 .service-list li { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding: 22px 0; border-top: 1px solid var(--line); }
